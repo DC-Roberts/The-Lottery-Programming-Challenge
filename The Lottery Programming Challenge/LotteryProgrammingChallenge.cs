@@ -50,7 +50,7 @@ namespace The_Lottery_Programming_Challenge
         generatedNumbers += list[i] + " ";
       }
 
-      //Final step to add numbers to the tech box
+      //Final step to add numbers to the text box
       LotteryNumbers.Text = generatedNumbers;
       LotteryNumbers.SelectAll();
       LotteryNumbers.SelectionAlignment = HorizontalAlignment.Center;
